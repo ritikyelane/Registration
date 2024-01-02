@@ -31,7 +31,25 @@ body {
   z-index: -99;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
-
+.login{
+  display: inline-block;
+  width: 30%;
+  height: 30px;
+  background-color: #2050ef;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.8rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  padding-top: 4px;
+  transition: 0.3s;
+  margin-top: 1.3rem;
+  margin-left: 3px;
+}
+.login:hover {
+  background-color: #2485f3;
+}
 .mainText img {
   text-align: center;
   height: 8vh;
